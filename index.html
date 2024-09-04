@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pobieranie wideo z YouTube</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pobieranie wideo z YouTube</h1>
+            <p>Bez kompresji, w najwyższej jakości MP4</p>
+        </header>
+        
+        <main>
+            <form id="download-form">
+                <label for="url">Wprowadź URL wideo z YouTube:</label>
+                <input type="text" id="url" name="url" placeholder="https://www.youtube.com/watch?v=..." required>
+                <button type="submit">Pobierz wideo</button>
+            </form>
+            <div id="result"></div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2024 Pobieranie wideo z YouTube. Wszystkie prawa zastrzeżone.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
